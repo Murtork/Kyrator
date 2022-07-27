@@ -1,0 +1,12 @@
+al='АБЗРУ'
+i=3125
+for x1 in al:
+    for x2 in al:
+        for x3 in al:
+            for x4 in al:
+                for x5 in al:
+                    s=x1+x2+x3+x4+x5
+                    if s=='АРБУЗ':
+                        print(s,i)
+                    i=i-1
+                    
